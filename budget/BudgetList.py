@@ -49,7 +49,7 @@ def main():
         print(entry)
 
     # show bar graph
-    fix, ax = plt.subplots()
+    fig, ax = plt.subplots()
 
     labels = ['Expenses', 'Overages', 'Budget']
     values = [myBudgetList.sum_expenses, myBudgetList.sum_overages, myBudgetList.budget]
